@@ -45,7 +45,7 @@ func main() {
 			fmt.Println("+----------------------+-----------------------+")
 			fmt.Printf("| Sequence Number      |                       |\n")
 			fmt.Printf("|         %-20d |                       |\n", seqNum)
-			fmt.Println("+----------------------+-----------------------+")
+			fmt.Println("+----------------------+-----------------+")
 			fmt.Printf("| Acknowledgment Number |                      |\n")
 			fmt.Printf("|         %-20d |                       |\n", ackNum)
 			fmt.Println("+----------------------+-----------------------+")
