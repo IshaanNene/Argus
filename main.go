@@ -48,7 +48,7 @@ func main() {
 			fmt.Println("+----------------------+----------------------")
 			fmt.Printf("| Acknowledgment Number |                      |\n")
 			fmt.Printf("|         %-20d |                       |\n", ackNum)
-			fmt.Println("+----------------------+-----------------------+")
+			fmt.Println("+----------------------+-------------------+")
 			fmt.Printf("| Data Offset | Reserved | Flags | Window Size  |\n")
 			fmt.Printf("| %-11d |   0   |   0   |      %-10d |\n", 5, windowSize)
 			fmt.Println("+----------------------+-----------------------+")
