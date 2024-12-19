@@ -39,7 +39,7 @@ func main() {
 			urgentPointer = tcp.Urgent
 			protocol = "TCP"
 			fmt.Println(protocol)
-			fmt.Println("+----------------------+-----------------------+")
+			fmt.Println("+----------------------+----------------------+")
 			fmt.Printf("| Source Port          | Destination Port      |\n")
 			fmt.Printf("|  %-20d | %-21d |\n", srcPort, dstPort)
 			fmt.Println("+----------------------+-----------------------+")
