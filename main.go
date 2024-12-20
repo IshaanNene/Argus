@@ -54,7 +54,7 @@ func main() {
 			fmt.Println("+----------------------+--------------------+")
 			fmt.Printf("| Checksum          | Urgent Pointer          |\n")
 			fmt.Printf("|    %-20d | %-21d |\n", checksum, urgentPointer)
-			fmt.Println("+----------------------+-----------------------+")
+			fmt.Println("+----------------------+--------------------+")
 			fmt.Println("|             Options (if any, variable)         |")
 			fmt.Println("+-------------------------------------------------+")
 			fmt.Println("|                    Data (variable)            |")
